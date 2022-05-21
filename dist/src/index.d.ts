@@ -9,6 +9,7 @@ export interface JSONFormatterConfiguration {
     useToJSON?: boolean;
     sortPropertiesBy?: (a: string, b: string) => number;
     maxArrayItems?: number;
+    exposePath?: boolean;
 }
 /**
  * @class JSONFormatter
